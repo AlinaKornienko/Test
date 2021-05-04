@@ -572,11 +572,54 @@
             <use href="./images/icons/sprite.svg#icon-Vector"></use>
           </svg>
         </button>
+        <form class="form js-speaker-form" autocomplete="off">
+          <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+          <div class="form-information">
+            <div class="form-field">
+              <label class="label" for="name">Имя</label>
+              <input type="text" name="user-name" id="name" />
+            </div>
+            <div class="form-field">
+              <label class="label" for="tel">Телефон</label>
+              <input type="tel" name="tel" id="tel" />
+            </div>
+            <div class="form-field">
+              <label class="label" for="mail">Почта</label>
+              <input type="email" name="mail" id="mail" />
+            </div>
+            <div class="form-field">
+              <label class="label" for="comment">Комментарий</label>
+              <textarea
+                name=""
+                id="comment"
+                rows="10"
+                placeholder="Введите текст"
+              ></textarea>
+            </div>
+          </div>
+          <div class="form-field-yes">
+            <input type="checkbox" name="topic" value="yes" id="yes" />
+            <label class="label" for="yes"
+              >Соглашаюсь с рассылкой и принимаю Условия договора</label
+            >
+          </div>
+          <button type="submit">Отправить</button>
+        </form>
+        <!-- <form class="form-footer" autocomplete="off">
+          <h2 class="form-title-footer">Подпишитесь на рассылку</h2>
+          <div class="form-field-footer">
+            <label class="label" for="name"></label>
+            <input
+              type="text"
+              name="user-name"
+              id="name"
+              placeholder="E-mail"
+            />
+            <button type="submit">Подписаться</button>
+          </div>
+        </form> -->
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    <form class="">
-      <input type="text" name="user-name" />
-    </form>
   </body>
 </html>
