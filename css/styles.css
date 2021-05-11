@@ -872,7 +872,7 @@ body {
 .form-field {
   position: relative;
 }
-.form-icon {
+.form-icon-svg {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -881,12 +881,12 @@ body {
 .form-input {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input ~ .form-icon,
-.form-input ~ .form-icon {
+.form-input ~ .form-icon-svg,
+.form-input ~ .form-icon-svg {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:focus ~ .form-icon,
-.form-input:hover ~ .form-icon {
+.form-input:focus ~ .form-icon-svg,
+.form-input:hover ~ .form-icon-svg {
   fill: var(--accent-color);
 }
 .form-input:focus,
