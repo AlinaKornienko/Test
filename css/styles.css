@@ -45,7 +45,7 @@ body {
   list-style: none;
 }
 /* logo */
-.logo {
+.main-nav__logo {
   display: block;
   font-family: Raleway, cursive;
   font-weight: 700;
@@ -53,10 +53,10 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-.logo-first {
+.main-nav__logo-first {
   color: var(--accent-color);
 }
-.logo-second-header {
+.main-nav__logo-second-header {
   color: var(--primary-black-color);
 }
 .logo-second-footer {
@@ -188,7 +188,7 @@ body {
   background-size: cover;
   text-align: center;
 }
-.hero-title {
+.hero-section__title {
   margin-top: 0;
   margin-bottom: 30px;
   color: var(--primary-white-color);
