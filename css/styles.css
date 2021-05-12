@@ -87,7 +87,7 @@ body {
   margin-left: 93px;
   margin-right: 33px;
 }
-.site-nav .item:not(:last-child) {
+.site-nav .site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 .site-nav a {
@@ -130,7 +130,7 @@ body {
 .contacts {
   display: flex;
 }
-.address-link {
+.contacts-address__link {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -150,7 +150,7 @@ body {
 .contacts a:focus {
   color: var(--accent-color);
 }
-.contact-info:not(:last-child) {
+.contacts-address:not(:last-child) {
   margin-right: 50px;
 }
 .address-icon {
