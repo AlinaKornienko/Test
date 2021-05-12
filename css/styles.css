@@ -346,7 +346,7 @@ body {
 .skills-item:not(:last-child) {
   margin-right: 30px;
 }
-.skills-item-img {
+.skills__img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -356,7 +356,7 @@ body {
   background-color: var(--secondary-backgound);
   border-radius: 4px;
 }
-.skills-item-svg {
+.skills__svg {
   color: var(--title-text-color);
 }
 /* emplouments*/
