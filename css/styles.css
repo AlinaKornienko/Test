@@ -809,6 +809,7 @@ body {
   appearance: none;
   position: absolute;
 }
+
 .label-confirm::before {
   position: absolute;
   top: 0;
