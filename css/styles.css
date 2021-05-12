@@ -329,21 +329,19 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.necessary-skills {
+.skills__text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
 }
 .skills {
   display: flex;
 }
-.skills p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.skills-item {
+.skills__item {
   width: 270px;
 }
-.skills-item:not(:last-child) {
+.skills__item:not(:last-child) {
   margin-right: 30px;
 }
 .skills__img {
