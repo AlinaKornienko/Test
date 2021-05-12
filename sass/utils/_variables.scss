@@ -1,0 +1,30 @@
+$title-text-color: #212121;
+$primary-text-color: #757575;
+$accent-color: #2196f3;
+$primary-white-color: #fff;
+$primary-black-color: #000;
+$primary-background-color: #2f303a;
+$secondary-backgound: #f5f4fa;
+
+%container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+%list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+%visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px 1px 1px 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
