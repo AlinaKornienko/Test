@@ -153,14 +153,14 @@ body {
 .contacts-address:not(:last-child) {
   margin-right: 50px;
 }
-.address-icon {
+.contacts-address__icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: rgba(117, 117, 117, 1);
   stroke: currentColor;
 }
-.address-icon-2 {
+.contacts-address__icon-2 {
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -171,7 +171,7 @@ body {
   border-top: 1px solid rgba(236, 236, 236, 1);
 }
 /* hero */
-.hero-section {
+.hero {
   max-width: 1600px;
   height: 600px;
   margin-right: auto;
@@ -188,7 +188,7 @@ body {
   background-size: cover;
   text-align: center;
 }
-.hero-section__title {
+.hero__title {
   margin-top: 0;
   margin-bottom: 30px;
   color: var(--primary-white-color);
@@ -212,7 +212,7 @@ body {
   cursor: pointer;
   border: none;
 }
-.button-close-imput {
+.button-close-input {
   position: relative;
 }
 .button-close {
@@ -312,7 +312,7 @@ body {
   margin-top: 0;
   margin-bottom: 10px;
 }
-.section-title {
+.section__title {
   margin-top: 0;
   color: var(--title-text-color);
   font-weight: 700;

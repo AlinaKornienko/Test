@@ -28,3 +28,28 @@ $secondary-backgound: #f5f4fa;
   width: 1px !important;
   overflow: hidden;
 }
+%button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+}
+%section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  justify-content: center;
+}
+%container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
