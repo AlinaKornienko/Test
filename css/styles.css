@@ -834,6 +834,11 @@ body {
   background-size: 11px 8px;
   background-color: var(--accent-color);
 }
+.checkbox:hover + .label-confirm::before,
+.checkbox:focus + .label-confirm::before {
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+}
 .form-checkbox {
   position: relative;
   margin-bottom: 30px;
