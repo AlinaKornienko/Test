@@ -508,7 +508,7 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-.address-text {
+.address__text {
   color: var(--primary-white-color);
   font-style: normal;
   margin-top: 20px;
@@ -530,7 +530,7 @@ body {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.address-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 .address a:hover,
@@ -551,7 +551,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.title-icons {
+.social-icons__title {
   margin-top: 0;
   margin-bottom: 20px;
   padding-top: 8px;
@@ -562,12 +562,12 @@ body {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
-.footer-social-icons-svg {
+.footer-social-icons__svg {
   width: 20px;
   height: 20px;
   fill: var(--primary-white-color);
 }
-.footer-social-icons-link {
+.footer-social-icons__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -577,18 +577,18 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-icons-link .footer-social-icons-svg {
+.footer-social-icons__link .footer-social-icons__svg {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-icons-link:hover .footer-social-icons-svg,
-.footer-social-icons-link:focus .footer-social-icons-svg {
+.footer-social-icons__link:hover .footer-social-icons__svg,
+.footer-social-icons__link:focus .footer-social-icons__svg {
   width: 20px;
   height: 20px;
   fill: rgba(255, 255, 255, 1);
   background-color: rgba(33, 150, 243, 1);
 }
-.footer-social-icons-link:hover,
-.footer-social-icons-link:focus {
+.footer-social-icons__link:hover,
+.footer-social-icons__link:focus {
   width: 44px;
   height: 44px;
   border-radius: 50%;
