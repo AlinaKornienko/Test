@@ -110,13 +110,13 @@ body {
 .site-nav.list.address > a {
   margin-bottom: 9px;
 }
-.site-nav .link.current {
+.site-nav .site-nav__link.current {
   color: var(--accent-color);
 }
-.link.current {
+.site-nav__link.current {
   position: relative;
 }
-.link.current::after {
+.site-nav__link.current::after {
   content: "";
   position: absolute;
   bottom: 0;
