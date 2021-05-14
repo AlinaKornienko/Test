@@ -1,4 +1,14 @@
+.container {
+  @extend %container;
+}
+.section__title {
+  @extend %section__title;
+}
 .employments {
+  &-section {
+    padding-top: 0;
+    padding-bottom: 94px;
+  }
   &__tasks {
     display: flex;
     justify-content: center;

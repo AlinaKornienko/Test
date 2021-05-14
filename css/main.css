@@ -1,4 +1,4 @@
-.page-header, .main-nav, .contacts {
+.page-header, .main-nav, .contacts, .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -12,7 +12,7 @@
   list-style: none;
 }
 
-.section__title {
+.necessary .section__title {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px 1px 1px 1px);
@@ -342,6 +342,11 @@ body {
 
 .skills__item:not(:last-child) {
   margin-right: 30px;
+}
+
+.employments-section {
+  padding-top: 0;
+  padding-bottom: 94px;
 }
 
 .employments__tasks {

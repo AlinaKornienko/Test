@@ -1,9 +1,11 @@
 .section {
   @extend %section;
   &__title {
-    @extend %visually-hidden;
     @extend %section__title;
   }
+}
+.necessary .section__title {
+  @extend %visually-hidden;
 }
 .skills {
   @extend %list;
