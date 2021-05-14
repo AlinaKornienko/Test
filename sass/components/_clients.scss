@@ -1,0 +1,38 @@
+.our-clients {
+  @extend %list;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &____item {
+    width: 170px;
+    height: 92px;
+  }
+  &__position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      border: 1px solid rgba(33, 150, 243, 1);
+      border-radius: 4px;
+    }
+  }
+  &__svg {
+    width: 106px;
+    height: 60px;
+    fill: rgba(175, 177, 184, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.our-clients__position:hover .our-clients__svg,
+.our-clients__position:focus .our-clients__svg {
+  fill: rgba(33, 150, 243, 1);
+}
