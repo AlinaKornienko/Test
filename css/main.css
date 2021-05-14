@@ -1,4 +1,4 @@
-.page-header, .main-nav, .contacts, .container {
+.page-header, .main-nav, .contacts {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -356,6 +356,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .employments__item {
@@ -403,6 +405,13 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.section.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 0;
+  background-color: var(--secondary-backgound);
 }
 
 .team__text {

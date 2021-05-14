@@ -1,9 +1,3 @@
-.container {
-  @extend %container;
-}
-.section__title {
-  @extend %section__title;
-}
 .employments {
   &-section {
     padding-top: 0;
@@ -12,6 +6,8 @@
   &__tasks {
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin: 0;
   }
   &__item {
     display: flex;

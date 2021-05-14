@@ -5,6 +5,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+.section.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 0;
+  background-color: var(--secondary-backgound);
+}
 .team {
   &__text {
     margin-bottom: 16px;
