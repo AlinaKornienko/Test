@@ -4,7 +4,7 @@
     @extend %section__title;
   }
 }
-.necessary .section__title {
+.section__title.visually-hidden {
   @extend %visually-hidden;
 }
 .skills {
