@@ -16,14 +16,13 @@ body {
 }
 .page-header {
   display: flex;
-  background-color: var(--primary-white-color);
+  background-color: $primary-white-color;
 }
 .page-header {
   @extend %container;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-color: $primary-white-color;
 }
 .main-nav {
   @extend %container;
@@ -55,9 +54,6 @@ body {
   &:focus {
     color: $accent-color;
   }
-}
-.site-nav.site-nav__list.address > a {
-  margin-bottom: 9px;
 }
 .site-nav .site-nav__link.current {
   color: $accent-color;

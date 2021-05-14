@@ -1,16 +1,12 @@
 .section {
   @extend %section;
   &__title {
-    margin-top: 0;
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    margin-bottom: 50px;
+    @extend %visually-hidden;
+    @extend %section__title;
   }
 }
 .skills {
+  @extend %list;
   display: flex;
   &__title {
     color: $title-text-color;
