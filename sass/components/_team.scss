@@ -1,15 +1,11 @@
 .container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  @extend %container;
 }
-.section.team {
+.team.section {
   padding-top: 94px;
   padding-bottom: 94px;
   margin-bottom: 0;
-  background-color: var(--secondary-backgound);
+  background-color: $secondary-backgound;
 }
 .team {
   &__text {
@@ -24,6 +20,18 @@
     font-size: 16px;
     line-height: 1.19;
   }
+  &__item {
+    background-color: $primary-white-color;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  &__about {
+    padding: 30px;
+    text-align: center;
+  }
+  &__scroll {
+    display: flex;
+    justify-content: center;
+  }
 }
 .list-title {
   margin-top: 0;
@@ -32,29 +40,48 @@
   font-size: 16px;
   line-height: 1.19;
 }
-.team__item {
-  background-color: $primary-white-color;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.team__about {
-  padding: 30px;
-  text-align: center;
-}
-
-.team {
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    justify-content: center;
-  }
-  .list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  display: flex;
-  justify-content: center;
+.team__scroll.list {
+  @extend %list;
 }
 .team__item:not(:last-child) {
   margin-right: 30px;
+}
+.social-icons {
+  @extend %list;
+  display: inline-flex;
+  &__svg {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--primary-white-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(33, 150, 243, 1);
+    }
+  }
+}
+.social-icons__item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-icons__link:hover .social-icons__svg,
+.social-icons__link:focus .social-icons__svg {
+  width: 20px;
+  height: 20px;
+  fill: rgba(255, 255, 255, 1);
+  background: rgba(33, 150, 243, 1);
+}
+.social-icons__link .social-icons__svg {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
