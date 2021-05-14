@@ -31,8 +31,8 @@ $secondary-backgound: #f5f4fa;
 %button {
   border-radius: 4px;
   padding: 10px 32px;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: $primary-white-color;
+  background-color: $accent-color;
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
@@ -48,7 +48,7 @@ $secondary-backgound: #f5f4fa;
 }
 %section__title {
   margin-top: 0;
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
