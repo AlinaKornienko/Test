@@ -76,6 +76,7 @@ body {
   @extend %container;
   @extend %list;
   display: flex;
+  justify-content: flex-end;
 }
 .contacts-address__link {
   display: flex;
