@@ -125,6 +125,20 @@
   margin-bottom: 9px;
 }
 .footer-form {
+  width: 570px;
+  min-height: 86px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  &__title {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $primary-text-color;
+  }
   &__field {
     display: flex;
     margin-bottom: 10px;

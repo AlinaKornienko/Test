@@ -212,7 +212,7 @@ body {
   cursor: pointer;
   border: none;
 }
-.button-close-input {
+.button-close__input {
   position: relative;
 }
 .button-close {
@@ -229,12 +229,12 @@ body {
   height: 30px;
   background-color: var(--primary-white-color);
 }
-.button-close-svg {
+.button-close__svg {
   fill: var(--primary-black-color);
   cursor: pointer;
 }
-.button-close:hover .button-close-svg,
-.button-close:focus .button-close-svg {
+.button-close:hover .button-close__svg,
+.button-close:focus .button-close__svg {
   fill: var(--accent-color);
 }
 
@@ -876,25 +876,25 @@ body {
 .modal-form__field {
   position: relative;
 }
-.form-icon-svg {
+.form__icon-svg {
   position: absolute;
   top: 50%;
   left: 12px;
   fill: var(--title-text-color);
 }
-.form-input {
+.form__input {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input ~ .form-icon-svg,
-.form-input ~ .form-icon-svg {
+.form__input ~ .form__icon-svg,
+.form__input ~ .form__icon-svg {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:focus ~ .form-icon-svg,
-.form-input:hover ~ .form-icon-svg {
+.form__input:focus ~ .form__icon-svg,
+.form__input:hover ~ .form__icon-svg {
   fill: var(--accent-color);
 }
-.form-input:focus,
-.form-input:hover {
+.form__input:focus,
+.form__input:hover {
   border: 1px solid var(--accent-color);
 }
 .modal__button {
