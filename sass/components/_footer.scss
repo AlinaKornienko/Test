@@ -124,3 +124,63 @@
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
+.footer-form {
+  &__field {
+    display: flex;
+    margin-bottom: 10px;
+    width: 570px;
+  }
+  &__input {
+    margin: 0;
+    margin-right: 12px;
+    padding: 15px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #2f303a;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 16px;
+      line-height: 1.25;
+    }
+    &:hover,
+    &:focus {
+      border-color: $accent-color;
+      cursor: pointer;
+    }
+  }
+}
+.footer {
+  &__button {
+    display: flex;
+    color: $primary-white-color;
+    background-color: $accent-color;
+    border-color: $accent-color;
+    width: 200px;
+    border-radius: 4px;
+    padding: 10px 29px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: none;
+  }
+  &__button-send {
+    fill: $primary-white-color;
+  }
+  &__button-text {
+    margin-right: 10px;
+  }
+  &__button-svg {
+    display: flex;
+    margin: 0;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+}
