@@ -53,19 +53,19 @@
     text-decoration: none;
   }
 }
-.portfolio__filter.list .list-title:not(:last-child) {
+.portfolio__filter .list-title:not(:last-child) {
   margin-right: 8px;
 }
 .portfolio {
   @extend %container;
-  .section {
-    margin-bottom: 94px;
-    background-color: #e5e5e5;
+  &__list {
+    @extend %list;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
   }
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0;
   &__item {
     position: relative;
     width: 370px;
@@ -86,6 +86,8 @@
   &__filter {
     @extend %list;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
   }
 }
@@ -117,12 +119,3 @@
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   }
 }
-// .button.filter__button:hover,
-// .button.filter__button:focus {
-//   background-color: var(--accent-color);
-//   color: var(--primary-white-color);
-//   border-color: var(--accent-color);
-//   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-//   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
-//   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-// }
